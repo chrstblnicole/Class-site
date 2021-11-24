@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 226, 188);
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    color: rgb(77, 63, 51);
+    border: solid brown;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    letter-spacing: 10px;
+    color: rgb(189, 160, 108);
+    text-transform: uppercase;
+}
+
+h2 {
+    position: relative;
+    font-weight: lighter;
+    text-align: center;
+    top: 0px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: rgb(139, 103, 69);
+}
+

@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 196, 209);
+    margin: 50px 50px;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+    position: relative;
+    width: 10px;
+    left: 100px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(0, 153, 255);
+}
+
+h2 {
+    position: relative;
+    font-weight: lighter;
+    top: 0px;
+    left: 100px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: rgb(0, 153, 255);
+}
+
+.poem {
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    line-height: 500%;
+    color: rgb(255, 0, 0);
+
+}
+
+.poem li {
+    list-style: none;
+    transform: rotate(45deg);
+}

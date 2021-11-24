@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+  <head>
+    <title>all-html_3</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div class="clock">
+      <div class="nut"></div>
+      <div class="hour-mark hour-mark-0"></div>
+      <div class="hour-mark hour-mark-1"></div>
+      <div class="hour-mark hour-mark-2"></div>
+      <div class="hour-mark hour-mark-3"></div>
+      <div class="hour-mark hour-mark-4"></div>
+      <div class="hour-mark hour-mark-5"></div>
+      <div class="hour-mark hour-mark-6"></div>
+      <div class="hour-mark hour-mark-7"></div>
+      <div class="hour-mark hour-mark-8"></div>
+      <div class="hour-mark hour-mark-9"></div>
+      <div class="hour-mark hour-mark-10"></div>
+      <div class="hour-mark hour-mark-11"></div>
+      <div class="second-hand"></div>
+      <div class="minute-hand"></div>
+      <div class="hour-hand"></div>
+    </div>
+
+  </body>
+</html>
+
+<style>
+    html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: rgb(255, 227, 227);
+}
+
+.clock {
+  width: 321px;
+  height: 321px;
+  background-color: #2e2e2e;
+  border: 16px solid #969696;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock::before {
+  position: absolute;
+  content: '';
+  width: 330px;
+  height: 330px;
+  border: 6px solid #202020;
+  border-radius: 50%;
+}
+
+.nut {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 50%;
+}
+
+.nut:before {
+  position: absolute;
+  content: '';
+  width: 9px;
+  height: 9px;
+  background-color: #303030;
+  border-radius: 50%;
+  left: 3px;
+  top: 3px;
+  z-index: 1;
+}
+
+.hour-mark {
+  position: absolute;
+  width: 1px;
+  height: 35px;
+  background-color: #ffffff;
+}
+
+.hour-mark-0 {
+  transform: translateY(-132px);
+}
+
+.hour-mark-1 {
+  transform: rotate(30deg) translateY(-132px);
+}
+
+.hour-mark-2 {
+  transform: rotate(60deg) translateY(-132px);
+}
+
+.hour-mark-3 {
+  transform: rotate(90deg) translateY(-132px);
+}
+
+.hour-mark-4 {
+  transform: rotate(120deg) translateY(-132px);
+}
+
+.hour-mark-5 {
+  transform: rotate(150deg) translateY(-132px);
+}
+
+.hour-mark-6 {
+  transform: rotate(180deg) translateY(-132px);
+}
+
+.hour-mark-7 {
+  transform: rotate(210deg) translateY(-132px);
+}
+
+.hour-mark-8 {
+  transform: rotate(240deg) translateY(-132px);
+}
+
+.hour-mark-9 {
+  transform: rotate(270deg) translateY(-132px);
+}
+
+.hour-mark-10 {
+  transform: rotate(300deg) translateY(-132px);
+}
+
+.hour-mark-11 {
+  transform: rotate(330deg) translateY(-132px);
+}
+
+.second-hand {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  transform: rotate(240deg);
+}
+
+.second-hand::before {
+  position: absolute;
+  content: '';
+  width: 3px;
+  height: 150px;
+  background-color: #ffffff;
+  left: -1px;
+  top: -120px;
+  border-radius: 1px;
+}
+
+.second-hand::after {
+  position: absolute;
+  content: '';
+  width: 7px;
+  height: 48px;
+  background-color: #ffffff;
+  left: -3px;
+  top: 12px;
+  border-radius: 3px;
+}
+
+.minute-hand {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  transform: rotate(120deg);
+}
+
+.minute-hand::before {
+  position: absolute;
+  content: '';
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 75px solid #5a5a5a;
+  left: -3px;
+  top: -100px;
+  width: 1px;
+  height: 1px;
+}
+
+.minute-hand::after {
+  position: absolute;
+  content: '';
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 25px solid #535353;
+  left: -3px;
+  top: -25px;
+  width: 3px;
+  height: 1px;
+}
+
+.hour-hand {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.hour-hand::before {
+  position: absolute;
+  content: '';
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 60px solid #5c5c5c;
+  left: -3px;
+  top: -80px;
+  width: 1px;
+  height: 1px;
+}
+
+.hour-hand::after {
+  position: absolute;
+  content: '';
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 20px solid #303030;
+  left: -3px;
+  top: -20px;
+  width: 3px;
+  height: 1px;
+}
+</style>

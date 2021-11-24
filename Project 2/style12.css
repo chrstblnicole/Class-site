@@ -1,0 +1,51 @@
+body {
+    font-size: 21px;
+    margin: 50px 50px;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 910px;
+    margin: auto;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: -200px;
+    transform: rotate(270deg);
+    transform-origin: 0,0;
+}
+
+
+h2 {
+    font-size: 15px;
+    width: 910px;
+    margin: auto;
+    position: relative;
+    margin-top: 0px;
+    margin-left: -200px;
+    transform: rotate(270deg);
+    transform-origin: 0,0;
+
+}
+
+.poem {
+    width: 300px;
+    min-height: 250px;
+    position: relative;
+    margin-left: 300px;
+    padding: 15px;
+    display: inline-block;
+    animation: abcd 18s infinite;
+}
+
+@keyframes abcd {
+    0%{margin-left: 300px;}
+    10%{margin-left: 350px;}
+    20%{margin-left: 300px;}
+    30%{margin-left: 350px;}
+    40%{margin-left: 300px;}
+    50%{margin-left: 350px;}
+}

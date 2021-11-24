@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 10px;
+    margin-top: 5%;
+    text-align: center
+}
+
+.poem-content {
+    list-style: none;
+    margin-top: 5%;
+    margin-left: auto;
+}
+
+.marquee {
+    font-size: 40px;
+    margin-bottom: 0%;
+    width: auto;
+    height: 20vh;
+    background-color: whitesmoke(231, 231, 231);
+    overflow: hidden;
+}
+
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 15s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translate(80vw);
+    }
+    100% {
+        transform: translate(-180vw);
+    }
+}
+
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    flex-shrink: 0;
+    font-size: 30px;
+    white-space: nowrap;
+}
+

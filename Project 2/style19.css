@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(223, 223, 223);
+    margin: 30px;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace
+}
+
+h1 {
+    position: relative;
+    margin-bottom: 0%;
+    text-align: right;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    position: relative;
+    font-weight: lighter;
+    margin-top: 0%;
+    text-align: right;
+    top: 0px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: rgb(58, 58, 58);
+}

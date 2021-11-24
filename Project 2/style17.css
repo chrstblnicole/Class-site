@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 50px 50px;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "Helvetica", Arial, sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(255, 230, 0);
+}
+
+h2 {
+    position: relative;
+    font-weight: lighter;
+    text-align: center;
+    top: 0px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: rgb(94, 94, 94);
+}
+
+.first {
+    text-align: left;
+}
+
+.second {
+    text-align: center;
+}
+
+.third {
+    text-align: right;
+}
+
+.fourth {
+    text-align: center;
+}
+
+.fifth {
+    text-align: center;
+    font-size: 50px;
+}
+
+.sixth {
+    text-align: left;
+}
+
+.seventh {
+    text-align: right;
+}
+
+.eight {
+    text-align: center;
+}

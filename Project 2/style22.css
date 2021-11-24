@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(75deg, rgb(255, 255, 255), lightpink);
+    font-family: Consolas, monaco, monospace
+  }
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 430px;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .front-face, .back-face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ebf8f9;
+    border-radius: 0.5rem;
+    backface-visibility: hidden;
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    transition: transform .4s linear;
+  }
+
+  .back-face{
+      font-size: 12px;
+      top: 0%;
+      padding: 20px;
+      text-align: justify;
+      font-size: 15px;
+  }
+  
+  .back-face{
+    transform: perspective(800px) rotateY(-180deg);
+  }
+  .front-face{
+    transform: perspective(800px) rotateY(0deg);
+  }
+  .container:hover > .back-face{
+    transform: perspective(800px) rotateY(0deg);
+  }
+  .container:hover > .front-face{
+    transform: perspective(800px) rotateY(180deg);
+  }
+  

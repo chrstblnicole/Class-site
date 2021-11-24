@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(80, 156, 175);
+    margin: 30px;
+    padding: auto;
+    box-sizing: border-box;
+    font-family:  Helvetica, Arial, sans-serif
+
+}
+
+h1 {
+    position: relative;
+    margin-bottom: 0%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    position: relative;
+    font-weight: lighter;
+    margin-top: 0%;
+    text-align: left;
+    top: 0px;
+    font-size: 15px;
+    color: rgb(223, 223, 223);
+}

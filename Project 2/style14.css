@@ -1,0 +1,59 @@
+body {
+    margin: 50px 50px;
+    padding: auto;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    width: 910px;
+    margin: auto;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -450px;
+    transform: rotate(270deg);
+    transform-origin: 0,0;
+}
+
+h2 {
+    font-size: 15px;
+    width: 910px;
+    margin: auto;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -400px;
+    transform: rotate(270deg);
+    transform-origin: 0,0;
+}
+
+.poem {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 500%;
+
+}
+
+.poem li {
+    list-style: none;
+    transform: rotate(45deg);
+    animation: bounce .3s ease infinite 
+}
+
+@keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }

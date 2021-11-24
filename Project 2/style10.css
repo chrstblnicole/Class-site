@@ -1,0 +1,30 @@
+body {
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0%;
+}
+
+
+h2 {
+    font-size: 30px;
+    margin-top: 0%;
+    animation: animate 20s linear infinite;
+
+}
+
+p {
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+@keyframes animate{
+    100%{
+    transform: translate(-100%, 0);
+    }
+}

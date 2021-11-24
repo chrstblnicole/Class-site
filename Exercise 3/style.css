@@ -1,0 +1,25 @@
+* {
+	margin: 300;
+	padding: 20;
+	box-sizing: border-box;
+	background: whitesmoke;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.header {
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.doc{
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}

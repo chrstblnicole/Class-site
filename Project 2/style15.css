@@ -1,0 +1,15 @@
+body {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 15px;
+    width: 910px;
+    margin-top: 0px;
+}
